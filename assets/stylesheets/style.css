@@ -1,0 +1,139 @@
+body {
+  color: #36454F;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* Add a grey background color to the top navigation */
+.navbar {
+  background-color: #F7F7F7;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-right: 65px;
+  padding-bottom: 10px;
+  padding-left: 65px;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: right;
+  padding: 14px 16px;
+  color: #36454F;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #E9ECEF;
+  color: #36454F;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar .logo {
+  float: left;
+}
+
+.img-logo {
+  height: 50px;
+  min-width: 100%;
+}
+
+.hero {
+  background: #E9ECEF;
+  min-height: 400px;
+  padding: 100px;
+
+  background: url('../images/17973908.jpg');
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  float: right;
+  right: 100px;
+  font-size: 40px;
+  text-align: right;
+}
+
+.about {
+  background-color: white;
+  padding: 70px;
+}
+
+.about p {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 20px;
+}
+
+.programmes {
+  background-color: #cbd3da;
+  padding: 70px;
+}
+
+.contact-us {
+  background-color: white;
+  padding: 70px;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.row { column-count: 3; }
+
+.column {
+  background-color: beige;
+  padding: 30px;
+  text-align: justify;
+}
+
+.form-input {
+  border: 1px solid #ddd;
+  height: 30px;
+  width: 300px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.button {
+  background-color: #ADD8E6;
+  color: #36454F;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+footer {
+  background-color: #F7F7F7;
+  padding-top: 30px;
+  padding-right: 65px;
+  padding-bottom: 70px;
+  padding-left: 65px;
+}
+
+footer .copyright {
+  float: left;
+  text-align: left;
+}
+
+footer .social-media {
+  float: right;
+}
+
+footer .social-icon {
+  height: 30px;
+}
+
+footer a { text-decoration: none; }
